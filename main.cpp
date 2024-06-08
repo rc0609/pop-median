@@ -5,7 +5,6 @@
 #include "myVector.hpp"
 #include "myList.hpp"
 #include "myHeap.hpp"
-#include "myAVLtree.hpp"
 
 
 int main() {
@@ -42,7 +41,6 @@ int main() {
     vectorMedian(&instructions);
     listMedian(&instructions);
     heapMedian(&instructions);
-    treeMedian(&instructions);
 
   return 0;
 
